@@ -7,7 +7,6 @@ def lazy_primes():
             primes.append(num)
         num += 1
 
-# Пример использования:
 prime_generator = lazy_primes()
 for _ in range(10):
     print(next(prime_generator))
